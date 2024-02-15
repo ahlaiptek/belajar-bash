@@ -1,3 +1,49 @@
+Hasil dari script tersebut akan tergantung pada input yang dimasukkan oleh pengguna. Berikut adalah penjelasan hasil yang mungkin:
+
+1. **Bagian Pertama (Angka):**
+   - Jika pengguna memasukkan angka lebih besar dari 0, maka akan tampil "Angka positif".
+   - Jika pengguna memasukkan angka 0, maka akan tampil "Angka nol".
+   - Jika pengguna memasukkan angka kurang dari 0, maka akan tampil "Angka negatif".
+
+2. **Bagian Kedua (Huruf):**
+   - Jika pengguna memasukkan huruf "a" atau "A", maka akan tampil "Anda memasukkan huruf A".
+   - Jika pengguna memasukkan huruf "b" atau "B", maka akan tampil "Anda memasukkan huruf B".
+   - Jika pengguna memasukkan huruf selain "a", "A", "b", atau "B", maka akan tampil "Anda memasukkan huruf selain A dan B".
+
+Contoh:
+- Input angka: 7
+  - Output Bagian Pertama: "Angka positif"
+- Input angka: 0
+  - Output Bagian Pertama: "Angka nol"
+- Input angka: -3
+  - Output Bagian Pertama: "Angka negatif"
+- Input huruf: A
+  - Output Bagian Kedua: "Anda memasukkan huruf A"
+- Input huruf: b
+  - Output Bagian Kedua: "Anda memasukkan huruf B"
+- Input huruf: x
+  - Output Bagian Kedua: "Anda memasukkan huruf selain A dan B"
+
+**Contoh 1:**
+- Input angka: 12
+  - Output Bagian Pertama: "Angka positif"
+- Input huruf: B
+  - Output Bagian Kedua: "Anda memasukkan huruf B"
+
+**Contoh 2:**
+- Input angka: -5
+  - Output Bagian Pertama: "Angka negatif"
+- Input huruf: a
+  - Output Bagian Kedua: "Anda memasukkan huruf A"
+
+**Contoh 3:**
+- Input angka: 0
+  - Output Bagian Pertama: "Angka nol"
+- Input huruf: X
+  - Output Bagian Kedua: "Anda memasukkan huruf selain A dan B"
+
+Dengan memasukkan nilai yang berbeda untuk angka dan huruf, hasil dari script akan menyesuaikan dengan kondisi yang didefinisikan dalam blok if-else dan case.
+
 Tentu, mari saya jelaskan tiap baris dalam script tersebut:
 
 1. `#!/bin/bash`: Baris ini disebut *shebang*, yang menunjukkan jalur ke interpreter yang akan digunakan untuk menjalankan script, dalam hal ini, menggunakan Bash.
